@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Baumans&family=Bree+Serif&family=Josefin+Sans&family=Poppins:wght@500;700&family=Potta+One&family=Press+Start+2P&family=Roboto:wght@100&family=Ubuntu&family=Varela+Round&family=Viga&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: #fff;
+    height: 70px;
+}
+
+.content{
+    font-family: 'Potta one',cursive;
+}
+
+.container{
+    /* background-color: aqua; */
+    width: 50vw;
+    margin: auto;
+    padding: 32px 0;
+    font-family: 'roboto',sans-serif;
+    font-weight: bold;
+}
+
+.logo{
+    padding:0 5px;
+}
+
+.gta {
+    display: flex; 
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.gta img{
+    width: 48px;
+    padding: 0 14px;
+}
+
+.logo img{
+    width: 30px;
+    filter: brightness(0) invert(1);
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 2px solid  !important;
+    border-radius: 20px !important;
+    padding: 2px 8px !important;
+}
